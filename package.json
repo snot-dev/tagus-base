@@ -18,12 +18,6 @@
   },
   "homepage": "https://github.com/snot-dev/tagus-base#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.3",
-    "hbs": "^4.0.1",
-    "morgan": "^1.9.0",
-    "path": "^0.12.7",
-    "tagus-cms": "0.0.2",
     "async": "^2.6.0",
     "axios": "^0.15.3",
     "bcrypt-nodejs": "0.0.3",
@@ -31,17 +25,21 @@
     "body-parser": "^1.15.0",
     "cookie-parser": "^1.4.3",
     "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "hbs": "^4.0.1",
     "jwt-simple": "^0.5.1",
     "mongoose": "^4.4.19",
     "morgan": "^1.7.0",
     "multer": "^1.3.0",
     "nodemailer": "^4.6.3",
+    "nodemon": "^1.17.3",
     "passport": "^0.3.2",
     "passport-jwt": "^3.0.0",
     "passport-token": "^0.1.3",
+    "path": "^0.12.7",
     "schema-object": "^4.0.11",
     "string": "^3.3.3",
+    "tagus-cms": "0.0.2",
     "universal-cookie": "^2.1.2"
   }
-  
 }
