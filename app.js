@@ -22,25 +22,25 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
-// tagusCMS.extend(app, {
-//   media: {
-//     path:'public/img',
-//     dir: '/img',
-//     root: 'public'
-//   },
-//   views: {
-//     path: [path.join(__dirname, 'public/views'), path.join(__dirname, partialsDir)],
-//     engine: 'hbs'
-//   },
-//   public: 'public',
-//   mongoConnectionString: process.env.MONGO_CONNECTION_STRING,
-//   domain:" process.env.DOMAIN",
-//   authSecretKey: process.env.AUTHSECRETORKEY,
-//   email: {
-//     email: 'hello',
-//     pass: 'hello'
-//   }
-// });
+tagusCMS.extend(app, {
+  media: {
+    path:'public/img',
+    dir: '/img',
+    root: 'public'
+  },
+  views: {
+    path: [path.join(__dirname, 'public/views'), path.join(__dirname, partialsDir)],
+    engine: 'hbs'
+  },
+  public: 'public',
+  mongoConnectionString: process.env.MONGO_CONNECTION_STRING,
+  domain:" process.env.DOMAIN",
+  authSecretKey: process.env.AUTHSECRETORKEY,
+  email: {
+    email: 'hello',
+    pass: 'hello'
+  }
+});
 
 app.listen(process.env.PORT_NUMBER, function () {  
   console.log("listening to " + process.env.PORT_NUMBER);
