@@ -1,0 +1,19 @@
+{
+  "name": "tagus-base",
+  "version": "1.0.0",
+  "description": "tagus-cms base project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snot-dev/tagus-base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snot-dev/tagus-base/issues"
+  },
+  "homepage": "https://github.com/snot-dev/tagus-base#readme"
+}
