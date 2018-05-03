@@ -1,0 +1,19 @@
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">{{this.content.default.title}}</h2>
+            <hr class="my-4">
+            <p class="mb-5">{{this.content.default.subTitle}}</p>
+          </div>
+        </div>
+        <div class="row">
+          {{#each this.children}}
+          <div class="col-lg-6 text-center">
+            <i class="fa {{this.content.default.icon}} fa-3x mb-3 sr-contact"></i>
+            <p>{{this.content.default.text}}</p>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </section>
