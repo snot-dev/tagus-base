@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "_buildDB": "node ./node_modules/tagus-cms/server/buildDB/buildScript"
   },
   "repository": {
     "type": "git",
@@ -39,7 +40,7 @@
     "path": "^0.12.7",
     "schema-object": "^4.0.11",
     "string": "^3.3.3",
-    "tagus-cms": "0.0.2",
+    "tagus-cms": "0.0.3",
     "universal-cookie": "^2.1.2"
   }
 }
